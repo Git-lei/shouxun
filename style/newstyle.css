@@ -1,0 +1,121 @@
+.ikmim {
+    width: 890px;
+    float: right;
+    text-align: center;
+}
+.ikmim li {
+    height: 300px;
+    width: 46.6%;
+    background-color: #f2f2f2;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.ikmim li:hover #line {
+    background-color: #c13324;
+}
+.ikmim img {
+    margin-top: 45px;
+    margin-bottom: 26px;
+}
+
+.ikmim b {
+    font-size: 26px;
+}
+
+.ikmim div {
+    width: 200px;
+    float: left; 
+    color: #595959;
+    
+}
+.ikmim div:nth-child(even){
+    text-align: right;
+}
+.ikmim div:nth-child(odd){
+    padding-left: 16px;
+    text-align: left;
+}
+.ikmim #line {
+    margin: 10px auto;
+    display: block;
+    background-color: #797979;
+    width: 37px;
+    height: 3px;
+}
+.ikmim .linka {
+    position: absolute;
+    top: 252px;
+    left: 160px;
+}
+.ikmim .linka a {
+    color: #C13224;
+    text-align: center;
+}
+.about_con_mid_lei {
+    width: 48.5%;
+    height:500px; float:left;
+}
+.about_con_mid_lei img {
+    width: 100%;
+}
+.about_con_r_lei {
+    width: 48.2%;
+    height:500px; float:left; margin-left:3%; 
+}
+.about_con_r_lei p{ color: #595959; line-height:2em; text-indent:2em; text-align:justify; height:445px; overflow:hidden;}
+.about_con_r_lei b{ font-size:18px; color:#c13224;}
+.about_con_r_lei a{ display:block; width:150px; height:40px; background:#c13224; margin-top:15px; color:#fff; line-height:40px; text-align:center; font-size:16px; transition:0.3s; border:1px #fff solid; }
+.about_con_r_lei a:hover{ background:#000; border:1px #000 solid;text-decoration:none; color:#fff;}
+.mask {
+width: 100%;
+height: 140px;
+background-color: rgba(0, 0, 0, 0.7 );
+position: fixed;
+bottom: 0;
+z-index: 9999;
+/* display: none; */
+}
+.mask div {
+width: 1200px;
+margin: 0 auto;
+}
+.mask span {
+float: left;
+color: #fff;
+font-size: 42px;
+margin-top: 50px;
+}
+.mask p {
+display: inline-block;
+color: #fff;
+font-size: 24px;
+margin: 70px 0 0 35px;
+}
+.guanjianci {
+width: 1200px;
+color: #fff;
+
+margin: 40px auto 30px;
+text-align: center;
+font-size: 16px;
+}
+.guanjianci a {
+color: #fff;
+}
+.footer_lei {
+height: 545px;
+background-size:cover ;
+}
+.ipbottom {
+text-align: center;
+line-height: 72px;
+color: #fff;
+width: 100%;
+height: 72px;
+background-color: #c13224;
+}
+.carousel-inner {
+background-color: #c13224;
+}
