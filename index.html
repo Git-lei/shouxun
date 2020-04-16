@@ -59,7 +59,12 @@
 
     </script>
  <style>
-    
+@media (max-width: 480px){
+    .footer {
+    min-height: 545px;
+}
+}
+
 .ikmim {
     margin-top: 9px;
     width:74%; 
@@ -112,7 +117,7 @@
 .ikmim .linka {
     position: absolute;
     top: 252px;
-    left: 35.6%;
+    left: 38.6%;
 }
 .ikmim .linka a {
     color: #C13224;
@@ -177,7 +182,7 @@ text-align: center;
 line-height: 72px;
 color: #fff;
 width: 100%;
-height: 72px;
+/* height: 72px; */
 background-color: #c13224;
 }
 .carousel-inner {
@@ -206,7 +211,7 @@ background-color: #c13224;
     }
     .ikmim li {
         margin-left: 20px;
-        width: 414px;
+        /* width: 414px; */
     }
     .mask {
         display: none;
@@ -220,12 +225,34 @@ background-color: #c13224;
         font-size: 36px !important;
        }
     .ikmim li {
-        width: 414px;
+        /* width: 414px; */
         margin: 10px auto;
         float: none;
     }
+    .ikmim .linka {
+        top:270px;
+        margin: 0 auto; 
+        text-align: center;   
+    }
 }
 @media (max-width: 780px){
+    .ikmim .linka {
+        top:270px;
+        left: -1.4%;
+    }
+    .ikmim li div{
+            width: 100%;
+            float: none;
+            margin: 0 auto;
+        }
+    .ikmim div:nth-child(even){
+        padding-right: 0px;
+        text-align: center;
+}
+.ikmim div:nth-child(odd){
+    padding-left: 0px;
+    text-align: center;
+}    
     .carousel-inner .slide_style_center span{
         font-size:34px !important;
        }
@@ -235,6 +262,19 @@ background-color: #c13224;
     .ipbottom {
         margin-bottom: 70px;
     }
+}
+@media (max-width: 480px){
+    .ikmim li {
+        width: 300px;
+    }
+    .item h1 {
+       margin-top: -10px !important;
+       font-size: 16px !important;
+
+        }
+    .carousel-inner .slide_style_center span{
+        font-size:26px !important;
+       }
 }
  </style>
 
@@ -311,7 +351,7 @@ background-color: #c13224;
 
                                 <div class="slide-text slide_style_center">
                                       
-                                        <h1 data-animation="animated zoomInRight" style=" font-size: 40px;margin-top: 20px ;">
+                                        <h1 data-animation="animated zoomInRight" style=" font-size: 40px; margin-top: 10px ;">
                                                 <span style="font-size:60px;line-height:80px;">咱德州人自己的财税公司</span><br />
                                                 德州免费代办公司 代理记账 商标注册
                                             </h1>
@@ -1019,32 +1059,33 @@ background-color: #c13224;
             </div> -->
             <div class="guanjianci"><a href="#">昌诺首页</a>  |  <a href="#">服务项目</a>  |  <a href="#">荣誉资质</a>  |  <a href="#">团队风采</a>  |  <a href="#">政策法规</a>  |  <a href="#">关于昌诺</a>  |  <a href="#">联系昌诺</a></div>
 
-            <div class="ipbottom"><span>Copyright by 2017-2020 山东昌诺企业管理咨询有限公司 ALL Rights Reserved <a
-                href="http://beian.miit.gov.cn" style="color:#ccc;margin-left:5px;"
-                rel="nofollow">备案号：鲁ICP备15005276号</a><a href="http://www.soxunsoft.com/wzkf/"
-                style="color:#ccc;margin-left:5px;" rel="nofollow">技术支持：手讯科技</a> </span><br>
-
-        <!-- <p id="yqlj885">
-            友情链接<a href="http://www.gongshang.org" target="_blank" rel="nofollow">中国工商服务中心</a><a
-                href="http://www.qiguangjiaoyu.com/" target="_blank"
-                style="font-family:monospace;font-size:medium;white-space:pre-wrap;">济南春季高考学校</a> <a
-                href="http://www.hengqing-bz.com" target="_blank"
-                style="font-family:monospace;font-size:medium;white-space:nowrap;">飞机盒</a> <a
-                href="http://www.kmxiaoguozicw.com" target="_blank"
-                style="font-family:monospace;font-size:medium;white-space:nowrap;">昆明公司注册</a><a
-                href="http://www.jncaiwu.cn" target="_blank">济南代理记账</a> <span style="white-space:nowrap;"><a
-                    href="http://www.cq-fangtai.net" target="_blank">重庆方太油烟机维修电话</a><a
-                    href="http://www.bjzcsc.com" target="_blank">昌平代理记账</a><a href="http://www.hkbob.com.cn"
-                    target="_blank">香港公司银行开户</a> <a href="http://www.waizizc.net" target="_blank">外资公司注册</a><a
-                    href="http://www.zmqzc.net" target="_blank">融资租赁公司注册</a>
-                <a href="http://www.sc12366.com" target="_blank">成都代理记账</a></span><br />
-        </p> -->
-    </div>
+           
             
 
         </div>
        
     </section>
+    <div class="ipbottom" style=" white-space:nowrap;overflow:hidden"><span>Copyright by 2017-2020 山东昌诺企业管理咨询有限公司 ALL Rights Reserved <a
+        href="http://beian.miit.gov.cn" style="color:#ccc;margin-left:5px;"
+        rel="nofollow">备案号：鲁ICP备15005276号</a><a href="http://www.soxunsoft.com/wzkf/"
+        style="color:#ccc;margin-left:5px;" rel="nofollow">技术支持：手讯科技</a> </span><br>
+
+<!-- <p id="yqlj885">
+    友情链接<a href="http://www.gongshang.org" target="_blank" rel="nofollow">中国工商服务中心</a><a
+        href="http://www.qiguangjiaoyu.com/" target="_blank"
+        style="font-family:monospace;font-size:medium;white-space:pre-wrap;">济南春季高考学校</a> <a
+        href="http://www.hengqing-bz.com" target="_blank"
+        style="font-family:monospace;font-size:medium;white-space:nowrap;">飞机盒</a> <a
+        href="http://www.kmxiaoguozicw.com" target="_blank"
+        style="font-family:monospace;font-size:medium;white-space:nowrap;">昆明公司注册</a><a
+        href="http://www.jncaiwu.cn" target="_blank">济南代理记账</a> <span style="white-space:nowrap;"><a
+            href="http://www.cq-fangtai.net" target="_blank">重庆方太油烟机维修电话</a><a
+            href="http://www.bjzcsc.com" target="_blank">昌平代理记账</a><a href="http://www.hkbob.com.cn"
+            target="_blank">香港公司银行开户</a> <a href="http://www.waizizc.net" target="_blank">外资公司注册</a><a
+            href="http://www.zmqzc.net" target="_blank">融资租赁公司注册</a>
+        <a href="http://www.sc12366.com" target="_blank">成都代理记账</a></span><br />
+</p> -->
+</div>
 
     <div class="down">
 
